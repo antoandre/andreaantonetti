@@ -1,0 +1,30 @@
+.alignmain{
+    background-color: rgba(255,255,255,0.7);
+    padding: 2.25%;
+    /*border: 5px solid #cccccc;*/
+    margin-bottom: 15px;
+    width:30%;
+    margin: 1%;
+    display:inline-block;
+    /*hover: */
+}
+
+.aligngallery{
+    background-color: rgba(255,255,255,0.7);
+    padding: 10px;
+    /*border: 5px solid #cccccc;*/
+    margin-bottom: 15px;
+    width:33.2%;
+    float: left;
+    margin: 0 auto;
+    /*display:inline-block;*/
+    
+    display: table-cell;
+    vertical-align: middle;
+    text-align:center;
+}
+
+div img { margin: 0;
+    /*width: 300px;*/
+    /*height: 300px;*/
+}

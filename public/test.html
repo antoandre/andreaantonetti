@@ -1,0 +1,48 @@
+<style type="text/css">
+        .wow {
+        position:relative;
+        width:560px;
+        height:310px;
+        -webkit-transition: opacity 0.8s ease-in-out;
+        -moz-transition: opacity 0.8s ease-in-out;
+        -o-transition: opacity 0.8s ease-in-out;
+        -ms-transition: opacity 0.8s ease-in-out;
+        transition: opacity 0.8s ease-in-out;
+    }
+    .wow img {
+        position:relative;
+        top:0;
+        left:0;
+        z-index:1
+    }
+    .overlay {
+        position:absolute;
+        width:100%;
+        height:100%;
+        top:0;
+        left:0;
+        z-index:2;
+        opacity:0;
+        -webkit-transition: opacity 0.4s ease-in-out;
+        -moz-transition: opacity 0.4s ease-in-out;
+        -o-transition: opacity 0.4s ease-in-out;
+        -ms-transition: opacity 0.4s ease-in-out;
+        transition: opacity 0.4s ease-in-out;
+    }
+    .wow:hover > .overlay {
+        opacity:1;
+        width:560px;
+        height:310px height:auto;
+        padding:5px;
+        display:block;
+        background:rgba(255, 255, 255, 0.4)
+    }
+    #wow img:hover {
+        opacity: 0.4;
+    }
+</style>
+
+<div class="wow">
+    <img src="http://media.tumblr.com/30ad609089a2d306c77f3de99a184a4c/tumblr_inline_mpq7oro2491qz4rgp.gif" alt="" />
+    <div class="overlay">This is some text</div>
+</div>
