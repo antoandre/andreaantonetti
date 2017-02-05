@@ -1,0 +1,12 @@
+How to change every row to the same value in a table.
+
+Format
+
+UPDATE table SET column = value
+
+
+
+
+Example
+
+UDPATE Eat SET Title = "Mi viaje a Guarapito"

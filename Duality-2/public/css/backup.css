@@ -1,0 +1,242 @@
+/**
+ * styles.css
+ *
+ * Computer Science 50
+ * Problem Set 7
+ *
+ * Global CSS.
+ */
+
+
+
+#top
+{
+     /*surround with whitespace */
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+
+.imgbanner {
+    width:100%;
+    height:auto;
+}
+
+/*#top .nav*/
+/*{*/
+    
+/*    float: left;*/
+/*    margin-left: 30px;*/
+/*    line-height: 40px;*/
+/*}*/
+
+/* Remove margins and padding from the list, and add a black background color */
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+}
+
+/* Float the list items side by side */
+ul.topnav li {float: left;}
+
+/* Style the links inside the list items */
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 24px 26px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 16px;
+    font-family: Hero Light;
+}
+
+/* Change background color of links on hover */
+ul.topnav li a:hover {background-color: #555;}
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.topnav li.icon {display: none;}
+
+.logo-img {
+    float: right;
+    position: relative;
+    margin: 0;
+    height: 70px;
+}
+
+#middle 
+{
+    /* center form controls */
+    display: inline-block;
+
+    /* override Bootstrap's 100% width for form controls */
+    width: auto;
+}
+
+.bg {
+    width: 100%;
+    margin: auto;
+    /*background-image: url("/img/algosimple.jpg");*/
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align:center;
+    
+    
+}
+
+.left {
+    background-color: rgba(255,255,255,0.7);
+    padding: 15px;
+    /*border: 5px solid #cccccc;*/
+    margin-bottom: 15px;
+    width:30%;
+    margin: 1%;
+    display:inline-block;
+    /*hover: */
+}
+
+
+.opacity {
+    /*opacity: 50;*/
+}
+
+
+
+body {
+    /*background-color: #f0f0f0;*/
+    /*font-size:14px;*/
+    /*color: #000000;*/
+}
+
+
+
+
+h1 {
+    color: blue;
+    
+}
+
+p {
+    color: red;
+    height: 25vh;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 5px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+
+#bottom, .push
+{
+    /* shrink bottom's font size */
+    font-size: smaller;
+
+    /* surround with whitespace */
+    /*margin: 20px;*/
+    
+    /*position: fixed;*/
+    z-index: 100; 
+    bottom: 0; 
+    left: 0;
+    width: 100%;
+    float: bottom;
+    
+}
+
+.wow {
+    position:relative;
+    width:350px;
+    height:437px;
+    -webkit-transition: opacity 0.8s ease-in-out;
+    -moz-transition: opacity 0.8s ease-in-out;
+    -o-transition: opacity 0.8s ease-in-out;
+    -ms-transition: opacity 0.8s ease-in-out;
+    transition: opacity 0.8s ease-in-out;
+}
+.wow img {
+    position:relative;
+    top:0;
+    left:0;
+    z-index:1
+}
+.overlay {
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    z-index:2;
+    opacity:0;
+    -webkit-transition: opacity 0.4s ease-in-out;
+    -moz-transition: opacity 0.4s ease-in-out;
+    -o-transition: opacity 0.4s ease-in-out;
+    -ms-transition: opacity 0.4s ease-in-out;
+    transition: opacity 0.4s ease-in-out;
+    font-family: HaloHandletter;
+    font-size: 35px;
+    line-height:350px;
+}
+.wow:hover > .overlay {
+    opacity:1;
+    width:350px;
+    height:437px;
+    height:auto;
+    padding:px;
+    display:block;
+    background:rgba(255, 255, 255, 0.4)
+}
+#wow img:hover {
+    opacity: 0.4;
+}
+
+
+
+#bottombar {
+    position: relative;
+}
+#bottombarcontent {
+    position: absolute;
+    bottom: 0;
+}
+
+
+
+
+/* Remove margins and padding from the list, and add a black background color */
+ul.bottomnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+    height: 40px;
+}
+
+/* Float the list items side by side */
+ul.bottomnav li {float: left;}
+
+/* Style the links inside the list items */
+ul.bottomnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 0px 160px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 12px;
+    font-family: Hero Light;
+}
+
+/* Change background color of links on hover */
+ul.bottomnav li a:hover {background-color: #555;}
+
+/* Hide the list item that contains the link that should open and close the bottomnav on small screens */
+ul.bottomnav li.icon {display: none;}

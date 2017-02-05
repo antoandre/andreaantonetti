@@ -1,0 +1,6 @@
+id  userid	symbol	shares
+1	13  	BA  	1515
+2	13     	YHOO	52
+3	12  	FREE	2
+4	12  	AMZN	5
+5
